@@ -5,6 +5,9 @@ const fs = require("fs");
 // ═══════════════════════════════════════════
 
 // ── INFO BOT ──────────────────────────────
+global.owner = process.env.OWNER_NUMBER || "94740152669";
+global.pairingNumber = process.env.PAIRING_NUMBER || "94740152669";
+
 global.botname = "SHIZUKA - MD";
 global.versibot = "1.0.0";
 global.ownername = "@Kazuki.dev";
