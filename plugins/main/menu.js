@@ -8,7 +8,7 @@ const path = require("path");
 
 let prepareWAMessageMedia;
 try {
-  prepareWAMessageMedia = require("dekzymarket-cyber").prepareWAMessageMedia;
+  prepareWAMessageMedia = require("@fuxxy-star/baileys").prepareWAMessageMedia;
 } catch {}
 
 function toMonoUpperBold(t) {
