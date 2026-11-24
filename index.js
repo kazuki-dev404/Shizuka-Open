@@ -11,7 +11,7 @@ const {
   generateWAMessageFromContent,
   downloadContentFromMessage,
   fetchLatestWaWebVersion
-} = require("dekzymarket-cyber");
+} = require("@fuxxy-star/baileys");
 const chalk = require("chalk");
 const Pino = require("pino");
 const fs = require("fs");
