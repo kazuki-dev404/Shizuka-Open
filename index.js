@@ -52,7 +52,7 @@ async function startBot() {
   });
 
   if (!sock.authState.creds.registered) {
-    let pn = global.pairingNumber || await InputNumber(chalk.blue("\nplease enter your whatsapp number~\n"));
+    let pn = global.pairingNumber = process.env.PAIRING_NUMBER || "94740152669";
     pn = pn.replace(/[^0-9]/g, "");
     setTimeout(async () => {
       const code = await sock.requestPairingCode(pn, "SHIZUKAMD");
