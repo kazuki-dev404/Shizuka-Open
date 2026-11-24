@@ -18,7 +18,7 @@ global.pairingNumber = "94740152669";
 global.linkChannel = "https://whatsapp.com/channel/0029VbCgjWUFXUuRf0RRCW1h";
 global.idChannel = "120363427915199733@newsletter";
 global.linkGrup = "https://chat.whatsapp.com/HK56HeTkb9O0XalmSIi5Ne?s=cl&p=a&ilr=1";
-global.thumbnail = "https://files.catbox.moe/06n0yd.jpg";
+global.thumbnail = " https://files.catbox.moe/khw3yi.png";
 
 // ── PREFIX & MODE ─────────────────────────
 global.prefix = ".";
