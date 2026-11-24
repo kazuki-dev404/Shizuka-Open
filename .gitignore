@@ -1,0 +1,6 @@
+node_modules/
+session/
+database/db.json
+tmp/
+.env
+*.log
